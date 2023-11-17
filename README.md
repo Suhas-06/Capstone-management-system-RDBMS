@@ -6,3 +6,9 @@
    - `DB_DATABASE`
    - `DB_USERNAME`
    - `DB_PASSWORD`
+### Additional Resources
+
+- The PDF file included in this repository contains:
+  - ER diagram picture
+  - Relational schema picture
+  - User requirements
