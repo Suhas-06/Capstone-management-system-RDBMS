@@ -1,4 +1,8 @@
 # Capstone-management-system-RDBMS
-Using mysql as backend and seperate html pages as frontend.
-Download the my_templates zip folder and update the 'TEMPLATE_FOLDER_PATH' in app.py to the path where my_templates is there in your system.
-Update these values ('DB_SERVER','DB_DATABASE','DB_USERNAME','DB_PASSWORD') in app.py with the values of your database after you run the sql file.
+1. Using MySQL as the backend and separate HTML pages as frontend.
+2. Download the `my_templates` zip folder and update the 'TEMPLATE_FOLDER_PATH' in `app.py` to the path where `my_templates` is located on your system.
+3. Update the following values in `app.py` with the appropriate values for your database after running the SQL file:
+   - `DB_SERVER`
+   - `DB_DATABASE`
+   - `DB_USERNAME`
+   - `DB_PASSWORD`
