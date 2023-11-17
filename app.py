@@ -2,13 +2,13 @@ from flask import Flask, render_template, request, redirect, url_for , session
 import pymysql
 import matplotlib.pyplot as plt
 import os
-app = Flask(__name__, template_folder='')
+app = Flask(__name__, template_folder='TEMPLATE_FOLDER_PATH')
 
 # Replace these with your actual database credentials
-server = 'localhost'
-database = 'Universitydb'
-username = 'root'
-password = ''
+server = 'DB_SERVER'
+database = 'DB_DATABASE'
+username = 'DB_USERNAME'
+password = 'DB_PASSWORD'
 
 static_dir = os.path.join(app.root_path, 'static')
 os.makedirs(static_dir, exist_ok=True)
