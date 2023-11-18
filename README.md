@@ -3,6 +3,8 @@
 ## Overview
 
 This repository serves as a Capstone Management System utilizing MySQL as the backend and separate HTML pages for the frontend.
+Flask API & HTTP Protocols: Utilization of Flask for backend API development and HTTP protocols for client-server communication.
+MySQL Database: Usage of MySQL for efficient storage and management of metadata.
 
 ## Setup Instructions
 
